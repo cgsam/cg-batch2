@@ -9,6 +9,7 @@ module.exports.start = function(msg){
         logger.initLogger(app);
 
     app.get('/', function (req, res) {
+        $logger.debug("Entering function get call");
         res.send('hello, world!')
     });
 

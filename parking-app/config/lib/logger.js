@@ -52,4 +52,7 @@ function initWinston(app){
             new winston.transports.File({ filename: 'logs/exceptions.log' })
         ]
     });
+
+    $logger.transports.console.level = 'debug';
+    $logger.transports.file.level = 'debug';
 }
