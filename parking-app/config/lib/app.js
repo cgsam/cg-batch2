@@ -7,6 +7,7 @@ var express = require('express'),
 module.exports.start = function(msg){
     var app = this.init();
         logger.initLogger(app);
+        this.initApplicationRoutes(app);
 
     app.get('/', function (req, res) {
         $logger.debug("Entering function get call");
@@ -22,4 +23,9 @@ module.exports.start = function(msg){
 module.exports.init = function (){
     var app = express ();
     return app;
+};
+
+module.exports.initApplicationRoutes = function(app){
+
+    require('./../../modules/entry/server/routes/entry.server.routes')(app);
 };

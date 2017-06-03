@@ -9,3 +9,8 @@ Lesson 1:
 Lesson 2:
 1. Initalized request logger and integrated with Morgon node module
 2. Initalized application logger and integrated with Winston node module
+
+Lesson 3:
+1. Design application modules for parking app
+2. Understanding of RESTful webservices or endpoints using URL and Http methods
+3. Register restful endpoints for entry module.
