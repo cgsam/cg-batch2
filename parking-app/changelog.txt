@@ -1,0 +1,11 @@
+Change Log
+-----------
+
+Lesson 1:
+1. Initialize application with npm-init command
+2. Created server.j file to listen on server port
+3. Created app.js file to bootstrap express with node
+
+Lesson 2:
+1. Initalized request logger and integrated with Morgon node module
+2. Initalized application logger and integrated with Winston node module
